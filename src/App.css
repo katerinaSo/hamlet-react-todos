@@ -1,13 +1,12 @@
 .App {
   text-align: center;
   background: #185760;
-  height: 100vh;
 }
 
 .App-logo {
-  margin-right: 1.5rem;
+  margin-right: 1rem;
   animation: App-logo-spin infinite 20s linear;
-  height: 5vmin;
+  height: 1rem;
 }
 
 .App-header {
@@ -32,8 +31,9 @@
 }
 .container {
   display: grid;
-  grid-template-rows: 0.7fr 1fr;
+  grid-template-rows: 1fr auto;
   grid-gap: 2rem;
   justify-content: center;
+  align-items: center;
   font-size: calc(10px + 2vmin);
 }

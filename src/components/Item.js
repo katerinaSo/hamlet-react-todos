@@ -3,12 +3,14 @@ import "./Item.css";
 
 export default class TodoItem extends Component {
   render() {
+    const { id, title, clearItem } = this.props;
+
     return (
       <div className="item">
-        <button className="btn btn-rotate">
+        <button className="btn btn-rotate" onClick={console.log(clearItem(id))}>
           <i className="fas fa-plus " id="rotated" />
         </button>
-        <span>list item</span>
+        <span>{title}</span>
       </div>
     );
   }

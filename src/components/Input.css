@@ -1,13 +1,14 @@
 .input {
-  margin-top: 2rem;
+  margin-top: 0rem;
+  margin-right: auto;
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto 1fr auto;
   grid-gap: 0.5rem;
   justify-content: center;
   align-items: center;
 }
 .fas.fa-plus {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #2ed0f8;
 }
 .btn {
@@ -20,6 +21,7 @@
 .window {
   font-size: 1rem;
   line-height: 1.5rem;
+  min-width: 50vw;
   border: 1px solid #2ed0f8;
   background: rgb(243, 224, 207);
 }

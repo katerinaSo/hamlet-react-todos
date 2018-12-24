@@ -11,6 +11,7 @@
   display: grid;
   grid-template-columns: auto 1fr;
   grid-gap: 1rem;
+  background: #185760;
 }
 span {
   text-align: start;
