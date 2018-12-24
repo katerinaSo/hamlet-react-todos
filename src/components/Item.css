@@ -1,0 +1,18 @@
+.btn-rotate {
+  /* background: #f8572e; */
+  transform: rotate(45deg);
+}
+#rotated {
+  color: #f8572e;
+  font-size: 1rem;
+}
+.item {
+  padding-bottom: 0.5rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 1rem;
+}
+span {
+  text-align: start;
+  color: white;
+}
